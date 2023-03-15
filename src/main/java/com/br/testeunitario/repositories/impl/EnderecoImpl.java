@@ -1,4 +1,4 @@
-package com.br.attornatus.repositories.impl;
+package com.br.testeunitario.repositories.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.br.attornatus.model.Endereco;
-import com.br.attornatus.repositories.EnderecoRepository;
+import com.br.testeunitario.model.Endereco;
+import com.br.testeunitario.repositories.EnderecoRepository;
 
 @Service
 public class EnderecoImpl {

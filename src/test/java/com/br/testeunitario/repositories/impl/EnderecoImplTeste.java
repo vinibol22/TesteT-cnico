@@ -1,4 +1,4 @@
-package com.br.attornatus.repositories.impl;
+package com.br.testeunitario.repositories.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,9 +10,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.br.attornatus.model.Endereco;
-
-import com.br.attornatus.repositories.EnderecoRepository;
+import com.br.testeunitario.model.Endereco;
+import com.br.testeunitario.repositories.EnderecoRepository;
+import com.br.testeunitario.repositories.impl.EnderecoImpl;
 
 @SpringBootTest
 public class EnderecoImplTeste {

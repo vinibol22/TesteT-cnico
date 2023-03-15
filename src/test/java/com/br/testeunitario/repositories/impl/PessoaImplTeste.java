@@ -1,4 +1,4 @@
-package com.br.attornatus.repositories.impl;
+package com.br.testeunitario.repositories.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -21,10 +21,10 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.br.attornatus.model.Endereco;
-import com.br.attornatus.model.Pessoa;
-import com.br.attornatus.repositories.PessoaRepository;
-import com.br.attornatus.repositories.impl.PessoaImpl;
+import com.br.testeunitario.model.Endereco;
+import com.br.testeunitario.model.Pessoa;
+import com.br.testeunitario.repositories.PessoaRepository;
+import com.br.testeunitario.repositories.impl.PessoaImpl;
 
 @SpringBootTest
 public class PessoaImplTeste {

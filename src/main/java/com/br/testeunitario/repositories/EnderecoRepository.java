@@ -1,10 +1,10 @@
-package com.br.attornatus.repositories;
+package com.br.testeunitario.repositories;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.br.attornatus.model.Endereco;
+import com.br.testeunitario.model.Endereco;
 @Repository
 public interface EnderecoRepository extends JpaRepository<Endereco,Long>{
 }

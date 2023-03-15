@@ -1,4 +1,4 @@
-package com.br.attornatus.model;
+package com.br.testeunitario.model;
 
 import java.util.List;
 
